@@ -55,6 +55,7 @@ plot.show()
 #plot heat map
 corMat = DataFrame(df.iloc[:,20:29].corr())
 plot.pcolor(corMat)
+plot.title("Heat Map")
 plot.show()
 
 
