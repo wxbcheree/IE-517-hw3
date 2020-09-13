@@ -49,7 +49,7 @@ plot.show()
 
 df_weeklymeanvolume = df.loc[:,'weekly_mean_volume']
 stats.probplot(df_weeklymeanvolume, dist="norm", plot=pylab)
-plot.title("Quantile‐quantile plot of Liquidity Score")
+plot.title("Quantile‐quantile plot of Weekly Mean Volume")
 plot.show()
 
 #plot heat map
