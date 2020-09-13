@@ -58,6 +58,10 @@ plot.pcolor(corMat)
 plot.title("Heat Map")
 plot.show()
 
+print("My name is {Xuebin Wang}")
+print("My NetID is: {xuebinw2}")
+print("I hereby certify that I have read the University policy on Academic Integrity and that I am not in violation.")
+
 
 
 
